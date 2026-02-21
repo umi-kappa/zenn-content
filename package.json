@@ -1,0 +1,28 @@
+{
+  "name": "zenn-content",
+  "version": "1.0.0",
+  "description": "Zennの記事を管理するリポジトリ",
+  "private": true,
+  "scripts": {
+    "new:article": "zenn new:article",
+    "preview": "zenn preview"
+  },
+  "keywords": [
+    "zenn",
+    "articles"
+  ],
+  "author": {
+    "name": "Masayuki Kurashita",
+    "email": "kurasita2@gmail.com",
+    "url": "https://zenn.dev/umi_kappa"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/umi-kappa/zenn-content.git"
+  },
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "zenn-cli": "^0.4.5"
+  }
+}
